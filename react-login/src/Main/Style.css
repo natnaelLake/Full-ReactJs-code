@@ -11,9 +11,32 @@
 #first{
     margin-top: 50px;
 }
-.ul-one{
-    list-style-type: none;
+/* .card{
+    width:300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
 }
-.btn{
-    
+*/
+link{
+    text-decoration: none;
+}
+nav{
+    /* text-decoration: none; */
+    list-style-type: none;
+    display: block;}
+li{
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:hover {
+    background-color: rgb(233, 227, 227);
+  }
+ul{
+    float: right;
+    text-decoration: none;
+}
+
+img{
+    height: 100%;
 }
