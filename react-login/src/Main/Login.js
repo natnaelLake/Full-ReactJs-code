@@ -11,6 +11,8 @@ import { useNavigate } from 'react-router-dom';
 function Login() {
  
   return (
+    <div>
+      <Home />
     <div className='container' >
     <div class="row">
     <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -59,6 +61,7 @@ function Login() {
         </div>
       </div>
       </div>
+    </div>
   )
 }
 

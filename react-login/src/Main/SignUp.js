@@ -2,11 +2,15 @@ import React, { Component } from 'react'
 import './Style.css';
 import Login from './Login';
 import { Link,Outlet } from 'react-router-dom';
+import Home from './Home';
+
 
 
 export class SignUp extends Component {
   render() {
     return (
+      <div> 
+        <Home /> 
       <div className='container' >
       <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -50,6 +54,7 @@ export class SignUp extends Component {
           </div>
         </div>
         </div>
+      </div>
     )
   }
 }
