@@ -18,25 +18,23 @@
     margin-right: 40px;
 }
 */
-link{
-    text-decoration: none;
-}
 nav{
-    /* text-decoration: none; */
-    list-style-type: none;
-    display: block;}
+    background-color: #dface4;
+}
 li{
-    padding: 14px 16px;
-    text-decoration: none;
+    font-size: 25px;
 }
-li:hover {
-    background-color: rgb(233, 227, 227);
-  }
+li:hover{
+    background-color: rgb(168, 232, 235);
+    color:rgb(206, 78, 211);
+}
+li:active{
+    background-color: rgb(168, 232, 235);
+    color:rgb(206, 78, 211);
+}
 ul{
-    float: right;
-    text-decoration: none;
+    margin-left:100px ;
 }
-
 img{
     height: 100%;
 }
