@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: black;
+}
 .form-floating{
     background-color: rgb(214, 15, 204);
     text-align: center;
@@ -36,5 +38,10 @@ ul{
     margin-left:100px ;
 }
 img{
+    height:100%;
+    width: 100%;
+}
+a img{
     height: 100%;
+    width: 100%;
 }

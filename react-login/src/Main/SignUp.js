@@ -38,11 +38,10 @@ export class SignUp extends Component {
                <input type="tel" className='form-control rounded-4' id='floatForm' name="email" placeholder='User Name' max={10} required autoFocus/>
                <label htmlFor="floatForm">Phone Number</label>
             </div>          
-                            <br></br>                       
-                                
+                            <br></br>                               
                   <br />
                   <hr />
-                    <Link to='/'> Have Account?</Link>
+                    <Link to='/login'> Have Account?</Link>
                   <br />
                   <br />
                   <div className='text-center'>

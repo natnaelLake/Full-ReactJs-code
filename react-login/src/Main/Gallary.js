@@ -17,93 +17,79 @@ export class Gallary extends Component {
       <div>
         <Home /> 
       <div className='container'>
-      <div class="row row-cols-1 row-cols-md-4  gy-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src={ImageOne} class="card-img-bottom"
-            alt="The first Image" />
-            <a href={ImageOne} class = "btn btn-info stretched-link">See Image</a>   
+      <div className="row row-cols-1 row-cols-md-4  gy-4">
+      <div className="col">
+        <div className="card h-100 ">
+          <img src={ImageOne} className="card-img-bottom"
+            alt="The first Image" />  
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src={ImageTwo} class="card-img-top"
-            alt="The second Image" />
-            <a href={ImageTwo} class = "btn btn-info stretched-link">See Image</a>                        
+      <div className="col">
+        <div className="card h-100 rounded-5">
+          <img src={ImageTwo} className="card-img-top"
+            alt="The second Image" />                       
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src={ImageThree} class="card-img-top"
-          alt="The Third image" />
-          <a href={ImageThree} class = "btn btn-info stretched-link">See Image</a>   
-                      
+      <div className="col">
+        <div className="card h-100">
+          <img src={ImageThree} className="card-img-top "
+          alt="The Third image" />   
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src={ImageFour} class="card-img-top"
-            alt="The fourth image" />
-            <a href={ImageFour} class = "btn btn-info stretched-link">See Image</a>   
-        </div>
-              </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src={ImageFive} class="card-img-top"
-            alt="The fifth image" />
-            <a href={ImageFive} class = "btn btn-info stretched-link">See Image</a>   
+      <div className="col">
+        <div className="card h-100">
+          <img src={ImageFour} className="card-img-top"
+            alt="The fourth image" />   
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src={ImageSix} class="card-img-top"
-            alt="The sixth image" />
-            <a href={ImageSix} class = "btn btn-info stretched-link">See Image</a>   
+      <div className="col">
+        <div className="card h-100">
+          <img src={ImageFive} className="card-img-top"
+            alt="The fifth image" />  
+        </div>
+      </div>
+      <div className="col">
+        <div className="card h-100">
+          <img src={ImageSix} className="card-img-top"
+            alt="The sixth image" />  
         </div>
        </div>     
-       <div class="col">
-       <div class="card h-100">
-         <img src={ImageOne} class="card-img-bottom"
-           alt="The firs Image" />
-           <a href={ImageOne} class = "btn btn-info stretched-link">See Image</a>   
-       </div>
-     </div>
-     <div class="col">
-       <div class="card h-100">
-         <img src={ImageTwo} class="card-img-top"
-           alt="The second Image" />
-           <a href={ImageTwo} class = "btn btn-info stretched-link">See Image</a>                        
-       </div>
-     </div>
-     <div class="col">
-       <div class="card h-100">
-         <img src={ImageThree} class="card-img-top"
-         alt="The Third image" />
-         <a href={ImageThree} class = "btn btn-info stretched-link">See Image</a>   
-                     
-       </div>
-     </div>
-     <div class="col">
-       <div class="card h-100">
-         <img src={ImageFour} class="card-img-top"
-           alt="The fourth image" />
-           <a href={ImageFour} class = "btn btn-info stretched-link">See Image</a>   
-       </div>
-             </div>
-     <div class="col">
-       <div class="card h-100">
-         <img src={ImageFive} class="card-img-top"
-           alt="The fifth image" />
-           <a href={ImageFive} class = "btn btn-info stretched-link">See Image</a>   
-       </div>
-     </div>
-     <div class="col">
-       <div class="card h-100">
-         <img src={ImageSix} class="card-img-top"
-           alt="The sixth image" />
-           <a href={ImageSix} class = "btn btn-info stretched-link">See Image</a>   
-       </div>
-     </div>            
+       <div className="col">
+        <div className="card h-100 ">
+          <img src={ImageOne} className="card-img-bottom"
+            alt="The first Image" />  
+        </div>
+      </div>
+      <div className="col">
+        <div className="card h-100 rounded-5">
+          <img src={ImageTwo} className="card-img-top"
+            alt="The second Image" />                       
+        </div>
+      </div>
+      <div className="col">
+        <div className="card h-100">
+          <img src={ImageThree} className="card-img-top "
+          alt="The Third image" />   
+        </div>
+      </div>
+      <div className="col">
+        <div className="card h-100">
+          <img src={ImageFour} className="card-img-top"
+            alt="The fourth image" />   
+        </div>
+      </div>
+      <div className="col">
+        <div className="card h-100">
+          <img src={ImageFive} className="card-img-top"
+            alt="The fifth image" />  
+        </div>
+      </div>
+      <div className="col">
+        <div className="card h-100">
+          <img src={ImageSix} className="card-img-top"
+            alt="The sixth image" />  
+        </div>
+       </div> 
     </div>
   </div>
       </div>
