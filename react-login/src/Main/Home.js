@@ -1,48 +1,25 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Style.css';
+import React, { Component } from 'react'
+import Header from './Header'
+import ImageOne from '../Image/127911302_3527796550636600_4247854037889096430_n.jpg'
+import ImageTwo from '../Image/first.jpg'
+import ImageThree from '../Image/second.jpg'
+import ImageFour from '../Image/third.jpg'
+import ImageFive from '../Image/fourth.jpg'
+import ImageSix from '../Image/fifth.jpg'
+import ImageSeven from '../Image/sixth.jpg'
+import { Carousel } from 'bootstrap'
 
-const Home = () => {
-  return (
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light ">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" >
-          <Link class="navbar-brand mt-5 mt-lg-0 text-dark" to="/">
-            Hotel Management System
-          </Link>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <Link class="nav-link " id = 'home'to = '/'>Home</Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link " to = '/gallery'>Gallery</Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link " to = '/login'>Login</Link>
-            </li>
-          </ul>
+// import ImageEight from '../Image/seventh.jpg'
+
+export class Home extends Component {
+  render() {
+    return (
+        <div>
+        <Header />
+        
         </div>
-        <div class="d-flex align-items-center">
-            <div className='container-fluid'>
-                <form className='d-flex input-group w-auto'>
-                <input
-                    type="search"
-                    class="form-control rounded"
-                    placeholder="Search"
-                    aria-label="Search"
-                    aria-describedby="search-addon"
-                    />
-                    <button className="btn btn-outline-dark border-1" id="search-addon">
-                    Search
-                </button>
-                </form>
-            </div>            
-        </div>
-      </div>
-    </nav>
-</div>
-  )
+    )
+  }
 }
 
 export default Home
