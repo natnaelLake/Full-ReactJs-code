@@ -8,16 +8,64 @@ import ImageFive from '../Image/fourth.jpg'
 import ImageSix from '../Image/fifth.jpg'
 import ImageSeven from '../Image/sixth.jpg'
 import { Carousel } from 'bootstrap'
+import './Style.css';
+
+
 
 // import ImageEight from '../Image/seventh.jpg'
 
 export class Home extends Component {
   render() {
     return (
-        <div>
+      <div>
         <Header />
-        
-        </div>
+        <div className= 'container'>
+              <div className='flip-card'>
+                <div className="flip-card-inner m-5">
+                 <div className="flip-card-front">
+                    <img className = 'rounded-5' src={ImageSix} alt="Welcome to the home page." />
+          
+                 </div>
+                 <div className="flip-card-back rounded-5">
+                  <h1>welcome to the back</h1>
+                  <p>this is the back part of the card. fell free there is no anything scarer.</p>
+                  <button className = 'btn btn-outline-info'>View</button>
+                 </div>
+            </div>
+          </div>
+
+          <div className='flip-card'>
+              <div className="flip-card-inner m-5">
+                  <div className="flip-card-front">
+                      <img className = 'rounded-5' src={ImageSix} alt="Welcome to the home page." />
+            
+                  </div>
+                  <div className="flip-card-back rounded-5">
+                    <h1>welcome to the back</h1>
+                    <p>this is the back part of the card. fell free there is no anything scarer.</p>
+                    <button className = 'btn btn-outline-info'>View</button>
+                  </div>
+            </div>
+          </div>
+
+           <div className='flip-card'>
+              <div className="flip-card-inner m-5">
+                  <div className="flip-card-front">
+                      <img className = 'rounded-5' src={ImageSix} alt="Welcome to the home page." />
+            
+                  </div>
+                  <div className="flip-card-back rounded-5">
+                    <h1>welcome to the back</h1>
+                    <p>this is the back part of the card. fell free there is no anything scarer.</p>
+                    <button className = 'btn btn-outline-info'>View</button>
+                  </div>
+            </div>
+          </div>
+          
+      </div>
+     
+</div>
+
     )
   }
 }
