@@ -26,7 +26,7 @@ export class Home extends Component {
               
         <div className=''>
           
-        <div className='mx-auto bg-image text-center p-s  shadow-1-strong rounded mb-5 text-white m-5'
+        <div className='mx-auto bg-image text-center p-5  rounded mb-5 text-white m-5'
         style={{
           backgroundImage: `url(${ImageSix})`,
           backgroundRepeat: 'no-repeat',
@@ -46,7 +46,7 @@ export class Home extends Component {
           
           <div className='flip-card rounded-5'>
             <div className="flip-card-inner m-5 mt-0 rounded-5 float-right" >
-             <div className="flip-card-front">
+             <div className="flip-card-front ">
                 <img className = 'rounded-5' src={ImageSix} alt="Welcome to the home page." />
       
              </div>

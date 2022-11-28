@@ -21,7 +21,7 @@ export class About extends Component {
         <div className='container-fluid mt-3 row row-cols-1 row-cols-md-3 gy-3'>
         <div className='col'>
         <div className='card shadow-lg rounded-4 border-0 bg-dark h-100'>
-                <img  id = 'images' className='d-flex justify-content-center card-img-top w-25 float-right rounded-circle shadow-4-strong' src={ImageOne} alt="" />
+                <img  id = 'images' className='hover-zoom d-flex justify-content-center card-img-top w-25 float-right rounded-circle shadow-4-strong' src={ImageOne} alt="" />
           <div className="card body">
             <h4 className="card-title text-center text-success">
               Card Title One
@@ -115,7 +115,7 @@ export class About extends Component {
           <div className='col'>
           <div className='card shadow-lg rounded-4 border-0 bg-dark h-100'>
   
-          <img  id = 'images' className='d-flex justify-content-center card-img-top w-25 float-right rounded-circle shadow-4-strong' src={ImageFour} alt="" />
+          <img  id = 'images' className='hover-zoom d-flex justify-content-center card-img-top w-25 float-right rounded-circle shadow-4-strong' src={ImageFour} alt="" />
 
             <div className="card body">
               <h4 className="card-title text-center text-success">
