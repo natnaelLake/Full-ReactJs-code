@@ -26,10 +26,25 @@ export class Copies extends Component {
               Search
           </button>
           </form>
-      </div>            
+                            </div>        
+      
+                            
+
+                            <div className='mx-auto bg-image text-center p-s  shadow-1-strong rounded mb-5 text-white m-5'
+            style={{
+            //   backgroundImage: `url(${})`,
+              backgroundRepeat: 'no-repeat',
+              width: '500px',
+              height:'500px'
+                                  }}>
+                            </div>
   </div>
 
      
+
+
+
+
      
      
      

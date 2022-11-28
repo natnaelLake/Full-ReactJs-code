@@ -91,3 +91,9 @@ img{
     color:rgb(3, 3, 3);
     transform:rotateY(180deg);
 }
+
+.backImage{
+    background-size:cover;
+    background-repeat:none;
+    ;
+}
