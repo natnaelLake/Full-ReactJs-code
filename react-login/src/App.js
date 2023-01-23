@@ -9,6 +9,7 @@ import Gallary from './Main/Gallary';
 import About from './Main/About';
 import Services from './Main/Services';
 import Header from './Main/Header';
+import Display  from './Main/Display';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route exact  path="/gallery" element={<Gallary />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/services" element={<Services />} />
+            <Route exact path = '/display' element = {<Display />}/>
       </Routes>
     </BrowserRouter>
   );

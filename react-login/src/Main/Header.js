@@ -27,6 +27,9 @@ const Home = () => {
               <li class="nav-item">
                 <Link class="nav-link  text-danger " to = '/services'>Services</Link>
             </li>
+            <li class="nav-item">
+                <Link class="nav-link  text-danger " to = '/display'>All Data</Link>
+            </li>
           </ul>
         </div>
         <div class="d-flex align-items-center">
